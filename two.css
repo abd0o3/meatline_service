@@ -1,0 +1,85 @@
+* {
+    direction: rtl;
+    padding: 0;
+    margin: 0;
+}
+body {
+    height: 100vh;
+    background-color: #000;
+}
+
+.container-project .info {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.info img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.info .txt .logo {
+    display: block;
+    margin-bottom: 9px;
+    font-size: 35px;
+    font-family: 'Readex Pro', sans-serif;
+    color: #ff0000;
+}
+
+.info .txt .des {
+    line-height: 1.2;
+    font-weight: 500;
+    font-family: 'Lateef', serif;
+    font-size: 24px;
+    color: #fff;
+}
+
+/* buttons */
+.buttons {
+    display: flex;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.buttons a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    background-color: #6F1316;
+    padding: 15px 20px 15px 10px;
+    width: 80%;
+    margin: 35px auto 0;
+    border-radius: 30px;
+    box-shadow: 5px 5px 0 1px #000;
+    border: #000 2px solid;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Readex Pro', sans-serif;
+    color: #fff;
+    line-height: 1.7;
+
+
+}
+a img {
+    width:23px;
+    float: left;
+    background-color: #0000003b;
+    padding: 5px 0;
+    border-radius: 4px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding: 80px 0 10px 17px;
+}
+
+.icons a {
+    margin: 0 20px;
+    padding: 9px 9px 6px 9px;
+    border-radius: 15%;
+    border: solid 1px #fff;
+}
